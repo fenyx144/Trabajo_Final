@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis viajes por Perú</title>
+   
+    <link rel="stylesheet" href="css/paginaprincipal.css">
+    <link rel="stylesheet" href="css/paginasecundaria.css">
+    <link rel="stylesheet" href="css/formulario.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Mis viajes por <r>P</r><b>er</b><r>ú</r></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-home"></i> Inicio</a></li>                       
+                        <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+          
+        </div>
+
+       
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+    
+    <div class="article-container-cover">
+        <div class="container-info-cover">
+            <h1>¡Viajar nos hace libres!</h1>
+            <p>Los lugares que visité, mis aventuras y experiencias.</p>
+        </div>
+    </div>
+
+    <div class="container-post">
+
+        <input type="radio" id="Todos" name="categories" value="Todos" checked>
+        <input type="radio" id="Costa" name="categories" value="Costa">
+        <input type="radio" id="Sierra" name="categories" value="Sierra">
+        <input type="radio" id="Selva" name="categories" value="Selva">
+
+        <div class="container-category">
+            <label for="Todos">Todos los lugares</label>
+            <label for="Costa">Costa</label>
+            <label for="Sierra">Sierra</label>
+            <label for="Selva">Selva</label>
+        </div>
+
+
+        <div class="posts">
+
+            <div class="post" data-category="Sierra">
+
+                <div class="ctn-img">
+                    <img src="img/cuzco.jpg" alt="">
+                </div>
+            <h2>La ciudad imperial del Cuzco.</h2>
+                <span>La ciudad del Cuzco es la antigua capital de los incas. En esta ciudad se siente
+                una energía especial, energía milenaria.</span>
+                <ul class="ctn-tag">
+                    <li>Sierra</li>
+                </ul>
+                <a href="ciudades/cuzco.html"><button>Leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Costa">
+
+                <div class="ctn-img"><img src="img/piura.jpg" alt=""></div>
+                <h2>Piura, la ciudad donde no acaba el verano.</h2>
+                <span>Piura es una ciudad norteña con un clima cálido y de personas muy amables y generosas.</span>
+                <ul class="ctn-tag">
+                    <li>Costa</li>
+                </ul>
+                <a href="ciudades/piura.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Selva">
+
+                <div class="ctn-img"><img src="img/pucallpa.jpg" alt=""></div>
+                <h2>Pucallpa, de la selva su encanto.</h2>
+                <span>Pucallpa es una bella ciudad de la selva, de clima caluroso, hermosos paisajes.</span>
+                <ul class="ctn-tag">
+                    <li>Selva</li>
+                </ul>
+                <a href="ciudades/pucallpa.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Costa">
+
+                <div class="ctn-img"><img src="img/tacna.jpg" alt=""></div>
+                <h2>Tacna, La Ciudad Heroíca.</h2>
+                <span>Tacna es una ciudad del sur de Perú, cerca de la frontera con Chile. El Paseo Cívico de Tacna se encuentra en su centro y alberga la Catedral de Tacna</span>
+                <ul class="ctn-tag">
+                    <li>Costa</li>
+                </ul>
+                <a href="ciudades/tacna.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Sierra">
+
+                <div class="ctn-img"><img src="img/huancayo.jpg" alt=""></div>
+                <h2>Huancayo, la ciudad inconstrastable</h2>
+                <span>Huancayo es la ciudad capital de la región de Junín, en el centro de Perú. Se conecta con la capital peruana, Lima, a través del Ferrocarril Central Andino</span>
+                <ul class="ctn-tag">
+                    <li>Sierra</li>
+                </ul>
+                <a href="ciudades/huancayo.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Costa">
+
+                <div class="ctn-img"><img src="img/tumbes.jpg" alt=""></div>
+                <h2>Tumbes, la ciudad de los manglares </h2>
+                <span>. Los balnearios de Tumbes se caracterizan por su agua cristalina, arena fina y el calor justo y necesario (la temperatura mínima media es de 22.4 °C).</span>
+                <ul class="ctn-tag">
+                    <li>Costa</li>
+                </ul>
+                <a href="ciudades/tumbes.html"><button>leer más</button></a>
+
+            </div>
+
+            <div class="post" data-category="Sierra">
+
+                <div class="ctn-img"><img src="img/ayacucho.jfif" alt=""></div>
+                <h2>Ayacucho, la ciudad de los retablos.</h2>
+                <span>yacucho es una ciudad de la zona sur central de Perú. Sus numerosas iglesias coloniales incluyen el Templo de Santo Domingo, que se caracteriza por su campanario con tres arcos.</span>
+                <ul class="ctn-tag">
+                    <li>Sierra</li>                    
+                </ul>
+                <a href="ciudades/ayacucho.html"><button>leer más</button></a>
+
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+    <div class="contact_form">
+        <div class="formulario">      
+            <h1>Formulario de contacto</h1>
+          
+            <form id="mi_formulario">
+                <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+            
+                <p>
+                <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+            
+                <p>
+                <label for="telefono" class="colocar_telefono">Teléfono
+                </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+            
+                <button onclick="capturar()" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+    
+                <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+            </form>
+            
+        </div>  
+      </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
